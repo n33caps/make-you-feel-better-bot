@@ -11,7 +11,7 @@ while True:
   
   for each_word in list_of_words:
     
-    if each_word == "sad":
+    if each_word == "sad" or "depressed":
       feelings_list.append("sad")
       encouragement_list.append("here's a virtual hug for you *hugs*, hope you feel better soon! tomorrow will be better, I promise")
       counter += 1
@@ -27,9 +27,9 @@ while True:
       feelings_list.append("angry")
       encouragement_list.append("take deep breathes and calm down. hoo haaa hoo haaa. Yes just like that")
       counter += 1
-     if each_word == "bored":
+    if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("you can find some things to do!")
+      encouragement_list.append("go find something to do! If not, here's a joke. What do you call a deer with no eyes? no idea ;))")
       counter += 1
 
   if counter == 0:
