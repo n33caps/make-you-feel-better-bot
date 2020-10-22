@@ -52,7 +52,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "Before I say goodbye, here's a joke. What do you call a deer with no eyes? no idea ;))"
 
   print()
   print(output)
