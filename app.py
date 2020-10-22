@@ -11,7 +11,7 @@ while True:
   
   for each_word in list_of_words:
     
-    if each_word == "sad":
+    if each_word == "sad" or "depressed":
       feelings_list.append("sad")
       encouragement_list.append("here's a virtual hug for you *hugs*, hope you feel better soon! tomorrow will be better, I promise")
       counter += 1
@@ -23,10 +23,12 @@ while True:
       feelings_list.append("tired")
       encouragement_list.append("take a break, get some rest, don't push yourself too hard. Please take care of yourself")
       counter += 1
+      
+    
 
   if counter == 0:
     
-      output = "sorry! I'm a bot, I don't really understand you.. Maybe try another word? :)"
+      output = "sorry! I don't really understand you at the moment. Please could you try another word? :)"
 
   elif counter == 1:
     
