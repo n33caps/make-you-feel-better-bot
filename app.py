@@ -31,7 +31,16 @@ while True:
       feelings_list.append("bored")
       encouragement_list.append("go find something to do! If not, here's a joke. What do you call a deer with no eyes? no idea ;))")
       counter += 1
-
+  
+   if each_word == "excited":
+      feelings_list.append("excited")
+      encouragement_list.append("Good for you!Happy to know that!")
+      counter += 1
+   if each_word == "I don't know":
+      feelings_list.append("I don't know")
+      encouragement_list.append("Persue your hobbies! That should give some entertainment")
+      counter += 1  
+  
   if counter == 0:
     
       output = "sorry! I'm a bot, I don't really understand you.. Maybe try another word? :)"
